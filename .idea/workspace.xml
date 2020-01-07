@@ -12,12 +12,20 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1W1BhTNyepsUFk8rt1gaRbKYEsz" />
   <component name="ProjectViewState">
@@ -27,13 +35,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.qa.bankingSyst" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TransactionTest.transaction_created_balance_is_equal_to_deposit">
     <configuration name="MainUnit" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.MainUnit" />
       <module name="banking-system" />
@@ -47,6 +65,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest.test_does_balance_equal_opening_amount_in_account" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.bankingSyst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.bankingSyst" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingSyst.AccountTest" />
+      <option name="METHOD_NAME" value="test_does_balance_equal_opening_amount_in_account" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTest.transaction_created_balance_is_equal_to_deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.bankingSyst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.bankingSyst" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.bankingSyst.TransactionTest" />
+      <option name="METHOD_NAME" value="transaction_created_balance_is_equal_to_deposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainUnit" />
+      <item itemvalue="JUnit.TransactionTest.transaction_created_balance_is_equal_to_deposit" />
+      <item itemvalue="JUnit.AccountTest.test_does_balance_equal_opening_amount_in_account" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TransactionTest.transaction_created_balance_is_equal_to_deposit" />
+        <item itemvalue="JUnit.AccountTest.test_does_balance_equal_opening_amount_in_account" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -82,22 +143,30 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="194" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578388777364" />
-    <state width="1200" height="247" key="GridCell.Tab.0.bottom" timestamp="1578391857183">
+    <state x="370" y="268" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1578401421753">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="247" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578391857183" />
-    <state width="1200" height="247" key="GridCell.Tab.0.center" timestamp="1578391857183">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state x="370" y="268" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578401421753" />
+    <state width="1237" height="247" key="GridCell.Tab.0.bottom" timestamp="1578404243539">
+      <screen x="1280" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="247" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578391857183" />
-    <state width="1200" height="247" key="GridCell.Tab.0.left" timestamp="1578391857183">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="247" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578402735481" />
+    <state width="1237" height="247" key="GridCell.Tab.0.bottom/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578404243539" />
+    <state width="1237" height="247" key="GridCell.Tab.0.center" timestamp="1578404243539">
+      <screen x="1280" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="247" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578391857183" />
-    <state width="1200" height="247" key="GridCell.Tab.0.right" timestamp="1578391857183">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1237" height="247" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578402735481" />
+    <state width="1237" height="247" key="GridCell.Tab.0.center/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578404243539" />
+    <state width="1237" height="247" key="GridCell.Tab.0.left" timestamp="1578404243538">
+      <screen x="1280" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="247" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578391857183" />
+    <state width="1237" height="247" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578402735481" />
+    <state width="1237" height="247" key="GridCell.Tab.0.left/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578404243538" />
+    <state width="1237" height="247" key="GridCell.Tab.0.right" timestamp="1578404243539">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state width="1237" height="247" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578402735481" />
+    <state width="1237" height="247" key="GridCell.Tab.0.right/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578404243539" />
     <state x="120" y="67" key="SettingsEditor" timestamp="1578312482830">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -110,6 +179,11 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="449" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578323732657" />
+    <state x="1691" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578404165389">
+      <screen x="1280" y="0" width="1280" height="984" />
+    </state>
+    <state x="411" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984/1280.0.1280.984@0.0.1280.984" timestamp="1578402408884" />
+    <state x="1691" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.984/1280.0.1280.984@1280.0.1280.984" timestamp="1578404165389" />
     <state x="336" y="90" width="607" height="804" key="find.popup" timestamp="1578321301623">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
