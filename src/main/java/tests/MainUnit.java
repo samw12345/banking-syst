@@ -1,6 +1,8 @@
 package tests;
 
 import com.qa.bankingSyst.Account;
+import com.qa.bankingSyst.CreditAccount;
+import com.qa.bankingSyst.InterestRate;
 
 public class MainUnit {
     public static void main(String[] args){
@@ -66,5 +68,18 @@ public class MainUnit {
         else{
             System.out.println("bad");
         }
+    }
+    static void test_going_overdrwn_on_credit_account(){
+        double openingBalance = 56.78;
+        double amountToDebit = 77.00;
+        Account acc = new CreditAccount(1, "John", openingBalance);
+
+        acc.Debit(amountToDebit);
+
+        amountToDebit += amountToDebit * InterestRate.HOME_LOAN.rate()/100;
+        if((openingBalance-amountToDebit)==acc.AvailableBalance() && (openingBalance-amountToDebit) == acc.CurrentBalance())
+            System.out.println("test_going_overdrwn_on_credit_account:passed");
+        else
+            System.out.println("test_going_overdrwn_on_credit_account:failed");
     }
 }
